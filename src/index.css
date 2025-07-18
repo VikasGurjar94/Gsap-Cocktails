@@ -1,0 +1,23 @@
+@import "tailwindcss";
+*{
+  font-family: 'Modern Negra Demo' , monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html , body {
+  height: 100%;
+  width: 100%; 
+  background-color: black;
+  color:  white;
+  position: relative;
+  scroll-behavior: smooth;
+  scrollbar-width: none ;
+  /* overflow-x: hidden; */
+}
+.custom{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.abtpage{
+  padding: 12px 250px;
+}
