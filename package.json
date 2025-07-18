@@ -1,8 +1,6 @@
-
-
 {
-  "homepage": "https://VikasGurjar94.github.io/Gsap-Cocktails" ,
-  "name" :"mojitoclone",
+  "homepage": "https://VikasGurjar94.github.io/Gsap-Cocktails",
+  "name": "mojitoclone",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,8 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
-
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
