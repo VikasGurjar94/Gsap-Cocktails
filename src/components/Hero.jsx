@@ -12,9 +12,6 @@ function Hero(){
     const videoRef = useRef() ;
 
 
-
-
-
     useGSAP(()=>{
         const titleAnimate = new SplitText('.title',{type : 'chars , words'});
         const paraAnimate = new SplitText('.para',{type : 'lines'});
@@ -79,24 +76,24 @@ function Hero(){
 
     return (
         <>
-        <div id="hero" className="w-[100%] relative flex justify-center items-center h-[88vh]   bg-black">
+        <div id="hero" className="w-[100%] relative flex  justify-center items-center h-[88vh]   bg-black">
             <div className="  z-7  flex justify-between">
                 {/* <img className=" absolute z-15 top-0 w-full" src="/images/noise.png" alt="noisepng" /> */}
             <img style={{marginTop : '18vh'}} id="left-leaf" className="  h-[500px] z-7 " src="\images\hero-left-leaf.png" alt="" />
             <div className="w-full  relative flex flex-col justify-between items-center ">
 
-            <h1  className="text-white z-7    text-[330px] overflow-hidden leading-normal tracking-tight   title ">MOJITO</h1>
+            <h1  className="text-white z-7    text-[330px] overflow-hidden leading-normal tracking-tight title ">MOJITO</h1>
             </div>
-            <img id="right-leaf"  className="  z-7 h-[500px]" src="\images\hero-right-leaf.png" alt="rightLeafpng" />
+            <img id="right-leaf"  className="  z-7 h-[500px] " src="\images\hero-right-leaf.png" alt="rightLeafpng" />
             </div>
-            <div className="w-full z-20 absolute top-[62vh] flex justify-around gap-150  ">
+            <div className="w-full z-20 absolute top-[62vh] flex justify-around  gap-150  ">
                 <div>
                     <p className="custom text-xl para ">
                     <span className="custom">Cool. Crisp. Classic. </span>
                     </p><br />
                     <h1 className="text-5xl text-[#E7D393] para">Sip The Spirit<br />Of Summer</h1>
                 </div>
-                <div className="w-[15vw]   ">
+                <div className="w-[15%]   ">
                     <p className="para custom text-xl   ">
                         <span className="custom "> Every cocktail on our menu is a blend of premium ingredients, creative flair, and timeless recipes. </span>
                        

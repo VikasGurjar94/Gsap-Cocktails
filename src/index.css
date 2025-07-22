@@ -11,13 +11,16 @@ html , body {
   background-color: black;
   color:  white;
   position: relative;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   scrollbar-width: none ;
   /* overflow-x: hidden; */
+}
+.lastPgae{
+  scrollbar-width: none ;
 }
 .custom{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .abtpage{
-  padding: 12px 250px;
+  padding: 12px 10px;
 }

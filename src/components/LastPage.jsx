@@ -28,7 +28,7 @@ function LastPage() {
 	})
 
 	return (
-		<div id="last-page" style={{paddingTop : '40vh'}} className="relative h-[80vh] w-full flex-col items-center justify-baseline">
+		<div id="last-page" style={{paddingTop : '40vh'}} className="lastPage relative  h-[80vh] w-full flex-col items-center justify-baseline">
 			<h1 className="text-8xl text-center ">Where To Find Us</h1>
 			<br />
 			<h1  className="text-center custom text-2xl  ">Visit Our Store</h1>
@@ -47,8 +47,8 @@ function LastPage() {
 				<a href="#home"><img src="/images/insta.png" alt="" /></a>
 				<a href="#home"><img src="/images/fb.png" alt="" /></a>
 			</div>
-			<img id="left" className="absolute bottom-0 left-0  z-50  w-[25vw] " src="/images/footer-left-leaf.png" alt="" />
-			<img id="right" className="absolute top-0 right-0 z-10 " src="/images/footer-right-leaf.png" alt="" />
+			<img id="left" className="absolute bottom-0 left-0  z-50 overflow-hidden  " src="/images/footer-left-leaf.png" alt="" />
+			<img id="right" className="absolute top-0 right-0 z-10 overflow-hidden" src="/images/footer-right-leaf.png" alt="" />
 		</div>
 	)
 }

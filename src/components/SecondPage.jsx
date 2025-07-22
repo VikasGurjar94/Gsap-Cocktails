@@ -144,8 +144,8 @@ function SecondPage() {
 
                 </div>
 
-                <img id="second-left-leaf" className="absolute z-18 left-0 bottom-0 " src="/images/cocktail-left-leaf.png" />
-                <img id="second-right-leaf" className="absolute z-18  right-0 bottom-0 " src="/images/cocktail-right-leaf.png" />
+                <img id="second-left-leaf" className="absolute z-18   overflow-x-hidden left-0 bottom-0 " src="/images/cocktail-left-leaf.png" />
+                <img id="second-right-leaf" className="absolute z-18  right-0 bottom-0 overflow-x-hidden " src="/images/cocktail-right-leaf.png" />
 
             </div>
         </>
